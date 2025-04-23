@@ -97,7 +97,7 @@
     border-radius:50%;
     box-shadow:0 0 10px #f1f1f1 rgba(0,0,0,0.1);
     display:inline-block;
-    margin: left -10px;
+    margin:left -10px;
     padding-top:49px;
 }
 #wrap main .bg .strategy_contents dl dt {
@@ -110,5 +110,5 @@
     margin-bottom:10px;
 }
 #wrap main .bg .strategy_contents dl dd {
-    line height:1.4;
+    line-height:1.4;
 }
