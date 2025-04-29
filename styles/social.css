@@ -1,0 +1,54 @@
+/* social.css */
+#wrap main .path {
+    background-color:red;
+    padding:12px 60px 12px 0;
+    border:1px solid #f1f1f1;
+    border-left:0; border-right:0;
+    text-align:right;
+}
+#wrap main .path a {
+    font-size:0.75rem;
+    letter-spacing:0;
+}
+#wrap main .path img {}
+#wrap main h1 {
+    font-size:3.75rem;
+    font-weight:700;
+    letter-spacing:0;
+    margin:80px 0 20px;
+}
+#wrap main > p {
+    font-size:1.125rem;
+    letter-spacing:0;
+    margin-bottom:80px;
+}
+#wrap main .bg {
+    background-color:orange;
+    padding:80px 0;
+}
+#wrap main .bg .social_box {
+    background-color:pink;
+    width:1280px; height:260px;
+    margin:0 auto;
+    padding:0 190px;
+    display:flex;
+    flex-flow:row nowrap
+
+}
+#wrap main .bg .social_box a {
+    background-color:#fff;
+    width:280px; height:260px;
+    border:1px solid #ddd;
+}
+#wrap main .bg .social_box a:hover {
+
+}
+#wrap main .bg .social_box a h2 {
+    font-size:1.563rem;
+    font-weight:600;
+    margin:15px 89px;
+}
+#wrap main .bg .social_box a p {
+    font-size:0.75rem;
+    letter-spacing:0;
+}
