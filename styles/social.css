@@ -48,7 +48,7 @@
     box-shadow:0 0 30px rgba(0,0,0,0.2);
 }
 #wrap main .bg .container a:last-child {}
-#wrap main .bg .container a p {}
+#wrap main .bg .container a p 
 #wrap main .bg .container a p img {}
 #wrap main .bg .container a h2 {
     font-size:1.563rem;
