@@ -1,9 +1,8 @@
 /* social.css */
+#wrap main {text-align:center;}
 #wrap main .path {
-    background-color:red;
+    background-color:#eee;
     padding:12px 60px 12px 0;
-    border:1px solid #f1f1f1;
-    border-left:0; border-right:0;
     text-align:right;
 }
 #wrap main .path a {
@@ -11,6 +10,7 @@
     letter-spacing:0;
 }
 #wrap main .path img {}
+#wrap main .path em {}
 #wrap main h1 {
     font-size:3.75rem;
     font-weight:700;
@@ -20,35 +20,42 @@
 #wrap main > p {
     font-size:1.125rem;
     letter-spacing:0;
-    margin-bottom:80px;
+    margin:0 0 80px;
 }
 #wrap main .bg {
-    background-color:orange;
+    background-color:#f5f5f5;
     padding:80px 0;
 }
-#wrap main .bg .social_box {
+#wrap main .bg .container {
     background-color:pink;
-    width:1280px; height:260px;
+    width:900px; /* height:260px; */
     margin:0 auto;
-    padding:0 190px;
+    /* padding:0 190px; */
     display:flex;
-    flex-flow:row nowrap
-
+    flex-flow:row nowrap;
+    justify-content:space-between;
 }
-#wrap main .bg .social_box a {
+#wrap main .bg .container a {
     background-color:#fff;
     width:280px; height:260px;
     border:1px solid #ddd;
+    /* padding-top:50px; */ /* 왼쪽은 중앙정렬 방법 1, 아래는 중앙정렬 방법 2 */
+    display:flex; flex-flow:column nowrap;
+    justify-content:center;
 }
-#wrap main .bg .social_box a:hover {
-
+#wrap main .bg .container a:hover {
+    border:1px solid #138FBF;
+    box-shadow:0 0 30px rgba(0,0,0,0.2);
 }
-#wrap main .bg .social_box a h2 {
+#wrap main .bg .container a:last-child {}
+#wrap main .bg .container a p {}
+#wrap main .bg .container a p img {}
+#wrap main .bg .container a h2 {
     font-size:1.563rem;
     font-weight:600;
-    margin:15px 89px;
+    margin:20px 0;
 }
-#wrap main .bg .social_box a p {
+#wrap main .bg .container h2+p {
     font-size:0.75rem;
     letter-spacing:0;
 }
