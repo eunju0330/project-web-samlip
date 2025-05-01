@@ -11,9 +11,7 @@
     justify-content:space-between;
     align-items:center;
 }
-#wrap main > * {
-    text-align:center;
-}
+#wrap main > * {}
 #wrap header h1 {}
 #wrap header h1 a {}
 #wrap header h1 a img {}
