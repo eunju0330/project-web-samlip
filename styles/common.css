@@ -213,8 +213,5 @@
     line-height:1.4;
     color:#808080;
 }
-#wrap footer .top .bottom address {
-    margin-bottom:50px;
-}
-#wrap footer .top .bottom p { 
-}
+#wrap footer .bottom address {margin-bottom:50px;}
+#wrap footer .bottom p {}

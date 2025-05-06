@@ -66,7 +66,10 @@ body, html {scroll-behavior:smooth;}
 #wrap main .ad_wrap .ad_container .ad4 {}
 #wrap main .ad_wrap .ad_container .ad5 {}
 /* ====================2. 뉴스&공지사항 */ 
-#wrap main .news_all {text-align:center;}
+#wrap main .news_all {
+    text-align:center;
+    padding:50px 0;
+}
 #wrap main .news_all h2 {
     font-size:2.5rem;
     font-weight:700;
@@ -79,13 +82,14 @@ body, html {scroll-behavior:smooth;}
 #wrap main .news_all .news_wrap {
     /* border:5px solid red; */
     width:1370px; overflow:hidden; margin:0 auto; /* 중앙으로 */
-    padding:100px 0 50px;
 }
 #wrap main .news_all .news_wrap .news_container {
     /* border:5px solid blue; */
     display:flex; flex-flow:row nowrap;
     width:max-content; /* 안쓰면 기본값 부모의 100%, 부모까지만 선택함*/
     text-align:left;
+    padding-top:100px;
+    padding-bottom:50px;
 }
 #wrap main .news_all .news_wrap .news_container .news {
     /* background-color:yellow; */
@@ -103,25 +107,27 @@ body, html {scroll-behavior:smooth;}
 #wrap main .news_all .news_wrap .news_container .news a h3 {
     font-weight:600;
     font-size:1.125rem;
+    margin-top:20px;
+    padding:0 20px 20px;
 }
 #wrap main .news_all .news_wrap .news_container .news .date {
     font-weight:300;
     font-size:0.875rem;
-    margin-bottom:40px;
-    margin-top:20px;
+    margin-top:40px;
     position:absolute; bottom:20px; left:20px;
 }
 #wrap main .news_all .news_wrap .news_btn {
+    margin:20px 0;
 }
-#wrap main .news_all .news_wrap .news_btn #news_prev {margin-left:10px;}
+#wrap main .news_all .news_wrap .news_btn #news_prev {margin-left:10px; margin-right:10px;}
 #wrap main .news_all .news_wrap .news_btn #news_prev img {}
-#wrap main .news_all .news_wrap .news_btn #news_next {}
+#wrap main .news_all .news_wrap .news_btn #news_next {transform:scaleX(-1);}
 #wrap main .news_all .news_wrap .news_btn #news_next img {}
 #wrap main .news_all .all_news {
     padding:15px 30px;
     border:1px solid #000;
     display:flex;
-    width:max-content; margin:20px auto 50px;
+    width:max-content; margin:0 auto 50px;
 }
 #wrap main .news_all .all_news img {}
 #wrap main .news_all .all_news em {
@@ -250,7 +256,7 @@ body, html {scroll-behavior:smooth;}
 #wrap main .brands_all .brands_wrap .brands_btn {
     margin-top:20px;
 }
-#wrap main .brands_all .brands_wrap .brands_btn #brands_prev {}
+#wrap main .brands_all .brands_wrap .brands_btn #brands_prev {margin-right:10px;}
 #wrap main .brands_all .brands_wrap .brands_btn #brands_prev img {}
-#wrap main .brands_all .brands_wrap .brands_btn #brands_next {}
+#wrap main .brands_all .brands_wrap .brands_btn #brands_next {transform:scaleX(-1);}
 #wrap main .brands_all .brands_wrap .brands_btn #brands_next img {}
